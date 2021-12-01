@@ -1,0 +1,21 @@
+<h1>Informações sobre a receita de <%= @recipe.name %></h1>
+<dl>
+ <dt>
+    <strong>Nome:</strong><%= @recipe.name %>
+  </dt>
+  <dd>
+     <strong>Tipo da receita:</strong><%= @recipe.recipe_type %>
+  </dd>
+  <dd>
+     <strong>Culinária:</strong><%= @recipe.cuisine %>
+  </dd>
+  <dd>
+     <strong>Ingredientes:</strong><%= @recipe.ingredients %>
+  </dd>
+  <dd>
+     <strong>Modo de Preparo:</strong><%= @recipe.cook_method %>
+  </dd>
+  <dd>
+     <strong>Tempo de Preparo:</strong><%= @recipe.cook_time %>
+  </dd>
+  </dl>
